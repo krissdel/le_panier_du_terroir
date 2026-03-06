@@ -37,7 +37,6 @@ function About() {
                 </div>
 
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-                    {/* Image */}
                     <div className="relative">
                         <div className="rounded-2xl overflow-hidden shadow-2xl">
                             <img
@@ -46,7 +45,6 @@ function About() {
                                 className="w-full h-[400px] lg:h-[500px] object-cover"
                             />
                         </div>
-                        {/* Badge */}
                         <div className="absolute -bottom-4 right-4 lg:-bottom-6 lg:right-4 bg-white rounded-2xl shadow-xl p-5 lg:p-6 hidden md:block">
                             <div className="text-center">
                                 <span className="text-4xl font-bold text-terracotta">25+</span>
